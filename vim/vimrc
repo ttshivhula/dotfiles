@@ -50,6 +50,7 @@ Plugin 'neoclide/coc-highlight', {'do': 'yarn install --frozen-lockfile'}
 Plugin 'jmanoel7/vim-games'
 Plugin 'dracula/vim', { 'name': 'dracula' }
 Plugin 'mattn/emmet-vim'
+Plugin 'diepm/vim-rest-console'
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
@@ -97,10 +98,11 @@ nnoremap <leader><Space> :call CMUSPause()<cr>
 nnoremap <leader>R :call CMUSToggleRepeat()<cr>
 nnoremap <leader>I :call CMUSCurrent()<cr>
 " A few common spotify commands
-map <leader>n :SpNext<cr>
-map <leader>p :SpPrevious<cr>
-map <leader>i :SpInfo<cr>
-map <leader><Space> :SpToggle<cr>
+map <silent> <leader>n :SpNext<cr>
+map <silent> <leader>p :SpPrevious<cr>
+map <silent> <leader>i :SpInfo<cr>
+map <silent> <leader><Space> :SpToggle<cr>
+nnoremap sp :SpSearch<Space>
 
 map <leader>t :term<cr>
 
@@ -249,3 +251,30 @@ nnoremap r<left> :vertical resize +5<cr>
 nnoremap r<down> :resize +5<cr>
 nnoremap r<up> :resize -5<cr>
 nnoremap r<right> :vertical resize -5<cr>
+
+"copy from vim to sys clipbord
+noremap <Leader>y "*y
+noremap <Leader>p "*p
+noremap <Leader>Y "+y
+noremap <Leader>P "+p
+"Tab stop and shit
+set tabstop=2
+set shiftwidth=2
+set expandtab
+"Manage VIM Tabs. And yes Vim does have tabs
+nnoremap tc :tabnew<Space>
+nnoremap <silent> tn :tabnext<CR>
+nnoremap <silent> tp :tabprev<CR>
+nnoremap <silent> tl :tablast<CR>
+nnoremap <silent> tf :tabfirst<CR>
+
+
+"REST Console stuff
+let g:vrc_curl_opts = {
+  \ '--connect-timeout' : 10,
+  \ '-L': '',
+  \ '-i': '',
+  \ '-s': '',
+  \ '-S': '',
+  \ '--max-time': 60,
+\}
