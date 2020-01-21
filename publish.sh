@@ -14,6 +14,9 @@ date +'%m/%d/%Y'
 date +'%r'
 date=$(date +'%m/%d/%Y')
 
+#Random number for unique commits
+unique=$((1000 + RANDOM % 9999))
+
 #Pull latest changes
 git pull origin "$branch_name"
 
@@ -25,7 +28,7 @@ else
     cp $local $repo 
     printf 'Repo: "%s"\n', $repo
     git add $repo 
-    git commit -m "Automatic local vimrc push. ${date}"
+    git commit -m "Automatic local vimrc push. ${date} ${unique}"
 fi
 
 #Push changes
