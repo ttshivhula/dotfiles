@@ -51,8 +51,8 @@ Plugin 'jmanoel7/vim-games'
 Plugin 'dracula/vim', { 'name': 'dracula' }
 Plugin 'mattn/emmet-vim'
 Plugin 'diepm/vim-rest-console'
-"This allows automated git when i make changes to vimrc file
-Plugin 'ttshivhula/dotfiles'
+Plugin 'ttshivhula/dotfiles' "This allows automated git when i make changes to vimrc file
+
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
