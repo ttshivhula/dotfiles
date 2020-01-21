@@ -1,4 +1,7 @@
 #!/bin/bash
+wdir="~/.vim/bundle/dotfiles"
+wdir="${wdir/#\~/$HOME}"
+cd $wdir
 repo="vim/vimrc"
 local="~/.vimrc"
 local="${local/#\~/$HOME}"
