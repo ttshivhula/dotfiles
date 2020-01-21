@@ -52,6 +52,7 @@ Plugin 'jmanoel7/vim-games'
 Plugin 'dracula/vim', { 'name': 'dracula' }
 Plugin 'mattn/emmet-vim'
 Plugin 'diepm/vim-rest-console'
+Plugin 'ttshivhula/dotfiles'
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
