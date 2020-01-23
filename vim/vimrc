@@ -3,6 +3,9 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 set encoding=UTF-8
 
+"Nerdtree Minimal UI
+let NERDTreeMinimalUI=1
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
