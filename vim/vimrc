@@ -122,7 +122,7 @@ nnoremap <leader>R :call CMUSToggleRepeat()<cr>
 nnoremap <leader>I :call CMUSCurrent()<cr>
 " A few common spotify commands
 map <silent> <leader>n :SpNext<cr>
-map <silent> <leader>p :SpPrevious<cr>
+map <silent> <leader>pp :SpPrevious<cr>
 map <silent> <leader>i :SpInfo<cr>
 map <silent> <leader><Space> :SpToggle<cr>
 nnoremap sp :SpSearch<Space>
