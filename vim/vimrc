@@ -6,8 +6,8 @@ set encoding=UTF-8
 "Nerdtree Minimal UI
 let NERDTreeMinimalUI=0
 "Auto open NERDTree
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists(“s:std_in”) | NERDTree | endif 
+"autocmd StdinReadPre * let s:std_in=1
+"autocmd VimEnter * if argc() == 0 && !exists(“s:std_in”) | NERDTree | endif 
 "Auto Close if only NERDTree 
 let NERDTreeQuitOnOpen = 1
 autocmd bufenter * if (winnr(“$”) == 1 && exists(“b:NERDTreeType”) && b:NERDTreeType == “primary”) | q | endif
