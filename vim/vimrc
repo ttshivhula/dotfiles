@@ -108,7 +108,7 @@ map <C-f> :Files<CR>
 map <C-g> :Ag<CR>
 map ; :suspend<CR>
 "colorscheme gruvbox
-colorscheme bubblegum
+colorscheme bubblegum-256-light
 "colorscheme dracula
 set bg=dark
 set t_Co=256
