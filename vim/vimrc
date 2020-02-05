@@ -3,7 +3,7 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 set encoding=UTF-8
 
-map <C-a> <esc>ggVG<CR> "copy entire page
+map <C-a> <esc>ggVG<CR> "select entire page
 
 let g:ycm_global_ycm_extra_conf = "~/.vim/ycm_extra_conf.py"
 highlight YcmErrorLine guibg=#3f0000
