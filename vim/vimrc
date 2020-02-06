@@ -184,7 +184,7 @@ let g:vim_jsx_pretty_colorful_config = 1 " default 0
 
 "Arduino config
 
-nnoremap <buffer> <leader>am :ArduinoVerify<CR>
+nnoremap <buffer> <leader>av :ArduinoVerify<CR>
 nnoremap <buffer> <leader>au :ArduinoUpload<CR>
 nnoremap <buffer> <leader>ad :ArduinoUploadAndSerial<CR>
 nnoremap <buffer> <leader>ab :ArduinoChooseBoard<CR>
