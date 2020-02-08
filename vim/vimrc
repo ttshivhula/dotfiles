@@ -78,6 +78,7 @@ Plugin 'ryanoasis/vim-devicons'
 Plugin 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plugin 'baskerville/bubblegum'
 Plugin 'stevearc/vim-arduino' "Arduino plugin
+Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-notes'
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
