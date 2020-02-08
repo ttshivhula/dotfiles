@@ -78,6 +78,7 @@ Plugin 'ryanoasis/vim-devicons'
 Plugin 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plugin 'baskerville/bubblegum'
 Plugin 'stevearc/vim-arduino' "Arduino plugin
+Plugin 'xolox/vim-notes'
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
@@ -202,3 +203,10 @@ endfunction
 setl statusline=%!MyStatusLine()
 
 autocmd BufNewFile,BufRead *.ino let g:airline_section_x='%{MyStatusLine()}'
+
+"Vim Notes
+
+let g:notes_directories = ['~/Documents/Notes', '~/Dropbox/Shared Notes']
+let g:notes_suffix = '.txt'
+
+
