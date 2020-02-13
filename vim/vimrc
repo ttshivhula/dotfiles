@@ -16,6 +16,11 @@ vmap <Tab>    mm>`m:<C-U>exec "normal ".&shiftwidth."l"<CR>mmgv`m
 
 map <C-a> <esc>ggVG<CR> "select entire page
 
+" when running at every change you may want to disable quickfix
+let g:prettier#quickfix_enabled = 0
+
+autocmd TextChanged,InsertLeave *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html,*.php PrettierAsync
+
 let g:ycm_global_ycm_extra_conf = "~/.vim/ycm_extra_conf.py"
 highlight YcmErrorLine guibg=#3f0000
 
