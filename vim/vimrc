@@ -8,7 +8,11 @@ set timeoutlen=1000
 set ttimeoutlen=0
 
 "80 chars limit. anyone who goes over 80 chars is an idiot.
-set colorcolumn=80
+if exists('+colorcolumn')
+    set colorcolumn=80
+else
+    au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%80v.\+', -1)
+endif
 
 " tap indent movement (use mark `m' for cursor position)
 vmap <S-Tab>  mm<`m:<C-U>exec "normal ".&shiftwidth."h"<CR>mmgv`m
