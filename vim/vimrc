@@ -66,7 +66,8 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'gko/vim-coloresque'
 Plugin 'ttshivhula/vim-music'
 Plugin 'uguu-org/vim-matrix-screensaver'
-Plugin 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
+"Plugin 'neoclide/coc.nvim', {'branch': 'release'}
+"Plugin 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 Plugin 'neoclide/coc-python', {'do': 'yarn install --frozen-lockfile'}
 Plugin 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
 Plugin 'neoclide/coc-css', {'do': 'yarn install --frozen-lockfile'}
