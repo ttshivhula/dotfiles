@@ -7,6 +7,10 @@ set encoding=UTF-8
 set timeoutlen=1000
 set ttimeoutlen=0
 
+"80 chars limit. anyone who goes over 80 chars is an idiot.
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+match OverLength /\%81v.\+/
+
 " tap indent movement (use mark `m' for cursor position)
 vmap <S-Tab>  mm<`m:<C-U>exec "normal ".&shiftwidth."h"<CR>mmgv`m
 vmap <Tab>    mm>`m:<C-U>exec "normal ".&shiftwidth."l"<CR>mmgv`m
