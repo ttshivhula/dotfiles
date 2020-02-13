@@ -8,8 +8,7 @@ set timeoutlen=1000
 set ttimeoutlen=0
 
 "80 chars limit. anyone who goes over 80 chars is an idiot.
-let &colorcolumn=join(range(81,999),",")
-let &colorcolumn="80,".join(range(400,999),","
+set colorcolumn=80
 
 " tap indent movement (use mark `m' for cursor position)
 vmap <S-Tab>  mm<`m:<C-U>exec "normal ".&shiftwidth."h"<CR>mmgv`m
