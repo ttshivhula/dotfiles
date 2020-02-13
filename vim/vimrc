@@ -4,8 +4,8 @@ filetype off                  " required
 set encoding=UTF-8
 
 " tap indent movement (use mark `m' for cursor position)
-vmap <S-Tab>  mm<`m:<C-U>exec "normal ".&shiftwidth."h"<CR>mmgv`m
-vmap <Tab>    mm>`m:<C-U>exec "normal ".&shiftwidth."l"<CR>mmgv`m
+vmap <C-S-Tab>  mm<`m:<C-U>exec "normal ".&shiftwidth."h"<CR>mmgv`m
+vmap <C-Tab>    mm>`m:<C-U>exec "normal ".&shiftwidth."l"<CR>mmgv`m
 
 map <C-a> <esc>ggVG<CR> "select entire page
 
