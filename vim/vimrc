@@ -368,3 +368,9 @@ nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
 
 " END OF COC.NVIM
 
+
+if has("autocmd")
+    " Enable file type detection
+    filetype on
+    autocmd BufNewFile,BufRead *.h,*.c setfiletype cpp
+endif
