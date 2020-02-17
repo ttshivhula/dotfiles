@@ -14,6 +14,9 @@ set colorcolumn=80
 vmap <S-Tab>  mm<`m:<C-U>exec "normal ".&shiftwidth."h"<CR>mmgv`m
 vmap <Tab>    mm>`m:<C-U>exec "normal ".&shiftwidth."l"<CR>mmgv`m
 
+"enable Farudo
+let g:far#enable_undo=1
+
 map <C-a> <esc>ggVG<CR> "select entire page
 
 " when running at every change you may want to disable quickfix
