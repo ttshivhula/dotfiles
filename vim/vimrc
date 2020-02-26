@@ -105,6 +105,7 @@ Plugin 'alvan/vim-closetag'
 Plugin 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plugin 'brooth/far.vim'
 Plugin 'tpope/vim-vinegar'
+PluginInstall 'mjbrownie/hackertyper.vim'
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
