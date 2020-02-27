@@ -106,6 +106,7 @@ Plugin 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plugin 'brooth/far.vim'
 Plugin 'tpope/vim-vinegar'
 Plugin 'mjbrownie/hackertyper.vim'
+Plugin 'takac/vim-spotifysearch'
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
