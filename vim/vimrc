@@ -14,8 +14,6 @@ set colorcolumn=80
 vmap <S-Tab>  mm<`m:<C-U>exec "normal ".&shiftwidth."h"<CR>mmgv`m
 vmap <Tab>    mm>`m:<C-U>exec "normal ".&shiftwidth."l"<CR>mmgv`m
 
-let g:spotify_country_code = 'ZA'
-
 "enable Farudo
 let g:far#enable_undo=1
 " shortcut for far.vim replace
@@ -108,7 +106,6 @@ Plugin 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plugin 'brooth/far.vim'
 Plugin 'tpope/vim-vinegar'
 Plugin 'mjbrownie/hackertyper.vim'
-Plugin 'takac/vim-spotifysearch'
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
