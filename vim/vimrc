@@ -421,7 +421,7 @@ let g:candid_color_store = {
     \ "white": {"gui": "#f4f4f4", "cterm256": "255"},
     \}
 
-colorscheme candid
+"colorscheme candid
 
 "" if you use lightline
 " Lightline
