@@ -411,7 +411,7 @@ function! ChooseTerm(termname, slider)
 endfunction
 
 " important:
-set termguicolors
+"set termguicolors
 
 set background=dark
 syntax on
