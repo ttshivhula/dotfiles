@@ -409,3 +409,14 @@ function! ChooseTerm(termname, slider)
         :exe "f " a:termname
     endif
 endfunction
+
+" important:
+set termguicolors
+
+set background=dark
+syntax on
+colorscheme candid
+
+"" if you use lightline
+" Lightline
+let g:lightline = { 'colorscheme': 'candid' }
