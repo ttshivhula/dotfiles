@@ -414,7 +414,7 @@ endfunction
 "set termguicolors
 
 "set background=dark
-syntax on
+"syntax on
 colorscheme candid
 
 "" if you use lightline
