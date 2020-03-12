@@ -415,6 +415,12 @@ endfunction
 
 "set background=dark
 "syntax on
+
+let g:candid_color_store = {
+    \ "black": {"gui": "#121212", "cterm256": "0"},
+    \ "white": {"gui": "#f4f4f4", "cterm256": "255"},
+    \}
+
 colorscheme candid
 
 "" if you use lightline
