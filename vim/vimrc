@@ -413,7 +413,7 @@ endfunction
 " important:
 "set termguicolors
 
-set background=dark
+"set background=dark
 syntax on
 colorscheme candid
 
