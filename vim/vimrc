@@ -411,3 +411,5 @@ function! ChooseTerm(termname, slider)
         :exe "f " a:termname
     endif
 endfunction
+
+set encoding=UTF-8
