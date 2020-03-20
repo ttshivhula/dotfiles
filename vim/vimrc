@@ -415,5 +415,5 @@ endfunction
 set nocompatible
 
 
-set wildignore+=*.pyc,*.o,*.obj,*.svn,*.swp,*.class,*.hg,*.DS_Store,*.min.*
+set wildignore+=*.pyc,*.o,*.a,*.obj,*.svn,*.swp,*.class,*.hg,*.DS_Store,*.min.*
 let NERDTreeRespectWildIgnore=1
