@@ -413,3 +413,4 @@ function! ChooseTerm(termname, slider)
 endfunction
 
 set encoding=UTF-8
+set nocompatible
