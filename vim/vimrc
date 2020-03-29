@@ -419,4 +419,4 @@ set wildignore+=*.pyc,*.o,*.a,*.obj,*.svn,*.swp,*.class,*.hg,*.DS_Store,*.min.*
 let NERDTreeRespectWildIgnore=1
 set whichwrap=<,>,h,l
 
-let g:gruvbox_contrast=hard
+let g:gruvbox_contrast='hard'
