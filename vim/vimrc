@@ -36,7 +36,6 @@ let NERDTreeDirArrows=0
 let NERDTreeDirArrowExpandable = "\u00a0"
 let NERDTreeDirArrowCollapsible = "\u00a0"
 let NERDTreeNodeDelimiter = "\x07"
-autocmd BufWritePost * NERDTreeFocus | execute 'normal R' | wincmd p
 "Auto open NERDTree
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif 
