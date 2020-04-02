@@ -113,6 +113,7 @@ Plugin 'easymotion/vim-easymotion'
 Plugin 'Yggdroot/indentLine'
 Plugin 'unblevable/quick-scope'
 Plugin 'lifepillar/vim-cheat40'
+Plugin 'sheerun/vim-polyglot'
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
