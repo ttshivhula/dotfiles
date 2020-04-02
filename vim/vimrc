@@ -425,3 +425,4 @@ set whichwrap=<,>,h,l
 
 let g:gruvbox_contrast='hard'
 let NERDTreeHighlightCursorline = 0
+set lazyredraw
