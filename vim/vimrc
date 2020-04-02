@@ -424,3 +424,4 @@ let NERDTreeRespectWildIgnore=1
 set whichwrap=<,>,h,l
 
 let g:gruvbox_contrast='hard'
+let NERDTreeHighlightCursorline = 0
