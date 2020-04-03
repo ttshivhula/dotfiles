@@ -96,8 +96,8 @@ Plugin 'diepm/vim-rest-console'
 Plugin 'ttshivhula/dotfiles' "This allows automated git when i make changes to vimrc file
 Plugin 'maxmellon/vim-jsx-pretty'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
-"Plugin 'ryanoasis/vim-devicons'
-Plugin 'tiagofumo/vim-nerdtree-syntax-highlight'
+Plugin 'ryanoasis/vim-devicons'
+"Plugin 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plugin 'baskerville/bubblegum'
 Plugin 'stevearc/vim-arduino' "Arduino plugin
 Plugin 'xolox/vim-misc'
