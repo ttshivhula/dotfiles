@@ -430,8 +430,7 @@ set redrawtime=10000
 au Syntax * syntax sync fromstart
 "disable mouse input
 set mouse=
-augroup scroll
-    au!
-    au  VimEnter * :silent !synclient VertEdgeScroll=0
-    au  VimLeave * :silent !synclient VertEdgeScroll=1
-augroup END
+map <ScrollWheelUp> <C-Y>
+map <S-ScrollWheelUp> <C-U>
+map <ScrollWheelDown> <C-E>
+map <S-ScrollWheelDown> <C-D>
