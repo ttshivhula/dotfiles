@@ -424,6 +424,6 @@ let NERDTreeRespectWildIgnore=1
 set whichwrap=<,>,h,l
 
 let g:gruvbox_contrast='hard'
-let NERDTreeHighlightCursorline = 0
+"let NERDTreeHighlightCursorline = 0
 syntax sync fromstart
 set redrawtime=10000
