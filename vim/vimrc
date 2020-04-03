@@ -425,5 +425,5 @@ set whichwrap=<,>,h,l
 
 let g:gruvbox_contrast='hard'
 "let NERDTreeHighlightCursorline = 0
-syntax sync fromstart
 set redrawtime=10000
+au Syntax * syntax sync fromstart
