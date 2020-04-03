@@ -430,7 +430,15 @@ set redrawtime=10000
 au Syntax * syntax sync fromstart
 "disable mouse input
 set mouse=
-map <ScrollWheelUp> <C-Y>
-map <S-ScrollWheelUp> <C-U>
-map <ScrollWheelDown> <C-E>
-map <S-ScrollWheelDown> <C-D>
+noremap <ScrollWheelUp>      <nop>
+noremap <S-ScrollWheelUp>    <nop>
+noremap <C-ScrollWheelUp>    <nop>
+noremap <ScrollWheelDown>    <nop>
+noremap <S-ScrollWheelDown>  <nop>
+noremap <C-ScrollWheelDown>  <nop>
+noremap <ScrollWheelLeft>    <nop>
+noremap <S-ScrollWheelLeft>  <nop>
+noremap <C-ScrollWheelLeft>  <nop>
+noremap <ScrollWheelRight>   <nop>
+noremap <S-ScrollWheelRight> <nop>
+noremap <C-ScrollWheelRight> <nop>
