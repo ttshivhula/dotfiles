@@ -89,7 +89,7 @@ Plugin 'neoclide/coc.nvim', {'branch': 'release'}
 Plugin 'neoclide/coc-python', {'do': 'yarn install --frozen-lockfile'}
 Plugin 'neoclide/coc-css', {'do': 'yarn install --frozen-lockfile'}
 Plugin 'neoclide/coc-highlight', {'do': 'yarn install --frozen-lockfile'}
-Plugin 'jmanoel7/vim-games'
+"Plugin 'jmanoel7/vim-games'
 Plugin 'dracula/vim', { 'name': 'dracula' }
 Plugin 'mattn/emmet-vim'
 Plugin 'diepm/vim-rest-console'
@@ -104,7 +104,7 @@ Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-notes'
 Plugin 'AndrewRadev/tagalong.vim'
 Plugin 'alvan/vim-closetag'
-Plugin 'prettier/vim-prettier', { 'do': 'yarn install' }
+"Plugin 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plugin 'brooth/far.vim'
 Plugin 'tpope/vim-vinegar'
 Plugin 'mjbrownie/hackertyper.vim'
