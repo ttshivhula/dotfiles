@@ -429,7 +429,7 @@ let g:gruvbox_contrast_dark='soft'
 set redrawtime=10000
 au Syntax * syntax sync fromstart
 "disable mouse input
-set mouse=
+set mouse=a
 nmap <S-ScrollWheelUp> <nop>
 nmap <C-ScrollWheelUp> <nop>
 nmap <ScrollWheelDown> <nop>
