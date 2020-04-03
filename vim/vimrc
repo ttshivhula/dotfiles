@@ -424,7 +424,7 @@ set wildignore+=*.pyc,*.o,*.a,*.obj,*.svn,*.swp,*.class,*.hg,*.DS_Store,*.min.*
 let NERDTreeRespectWildIgnore=1
 set whichwrap=<,>,h,l
 
-let g:gruvbox_contrast='hard'
+let g:gruvbox_contrast_light=true
 "let NERDTreeHighlightCursorline = 0
 set redrawtime=10000
 au Syntax * syntax sync fromstart
