@@ -192,8 +192,8 @@ noremap <Leader>p "*p
 noremap <Leader>Y "+y
 noremap <Leader>P "+p
 "Tab stop and shit
-set tabstop=4
-set shiftwidth=4
+set tabstop=3
+set shiftwidth=3
 set expandtab
 "Manage VIM Tabs. And yes Vim does have tabs
 nnoremap tc :tabnew<Space>
