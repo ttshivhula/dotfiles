@@ -433,5 +433,5 @@ au Syntax * syntax sync fromstart
 "disable mouse input
 set mouse=
 
-
+let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
