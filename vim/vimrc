@@ -432,3 +432,6 @@ set redrawtime=10000
 au Syntax * syntax sync fromstart
 "disable mouse input
 set mouse=
+
+noremap Zz <c-w>_ \| <c-w>\|
+noremap Zo <c-w>=
