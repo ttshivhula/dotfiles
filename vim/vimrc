@@ -115,7 +115,7 @@ Plugin 'unblevable/quick-scope'
 Plugin 'lifepillar/vim-cheat40'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'vwxyutarooo/nerdtree-devicons-syntax'
-Plugin 'dhruvasagar/vim-zoom'
+Plugin 'ttshivhula/vim-zoom'
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
@@ -432,6 +432,3 @@ set redrawtime=10000
 au Syntax * syntax sync fromstart
 "disable mouse input
 set mouse=
-
-noremap <Leader>z <c-w>_ \| <c-w>\|
-noremap <Leader>o <c-w>=
