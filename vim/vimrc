@@ -432,3 +432,6 @@ set redrawtime=10000
 au Syntax * syntax sync fromstart
 "disable mouse input
 set mouse=
+
+
+let g:airline#extensions#tabline#buffer_nr_show = 1
