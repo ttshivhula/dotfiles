@@ -115,7 +115,6 @@ Plugin 'unblevable/quick-scope'
 Plugin 'lifepillar/vim-cheat40'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'vwxyutarooo/nerdtree-devicons-syntax'
-Plugin 'regedarek/ZoomWin'
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
