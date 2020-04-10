@@ -124,6 +124,7 @@ nnoremap sp :SpSearch<Space>
 map <leader>t :term<cr>
 
 let g:spotify_token='OTRlZGMxMzAwYTljNDY0MjgwOTA5YjhlMmM5OWMwYTY6N2ZlNDNhYWNiZTM2NGI5N2IyZmUzMWM2YTQ1OWIxMzI='
+let g:spotify_market='ZA'
 
 :set number relativenumber
 
