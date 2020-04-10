@@ -47,18 +47,27 @@ Plugin 'vwxyutarooo/nerdtree-devicons-syntax'
 Plugin 'ttshivhula/vim-zoom'
 filetype plugin indent on    " required
 
+"VIM Look and Feel
 set nocompatible              " be iMproved, required
 filetype off                  " required
-
 set encoding=utf8
 let g:airline_powerline_fonts = 1
+set colorcolumn=80
+syntax on
+filetype plugin indent on
+colorscheme gruvbox
+set number
+set bg=dark
+set t_Co=256
+set laststatus=2
+let g:airline_theme='bubblegum'
+set mouse=
+let g:gitgutter_enabled=1
 
 "Speed up vim with timeout
 set timeoutlen=1000
 set ttimeoutlen=0
 
-"80 chars limit. anyone who goes over 80 chars is an idiot.
-set colorcolumn=80
 
 " (VsCode like) Tab indent movement (use mark `m' for cursor position)
 vmap <S-Tab>  mm<`m:<C-U>exec "normal ".&shiftwidth."h"<CR>mmgv`m
@@ -92,21 +101,10 @@ let NERDTreeQuitOnOpen = 1
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
 
-syntax on
-filetype plugin indent on
-set number
 map <C-p> :NERDTreeToggle<CR>
 map <C-f> :Files<CR>
 map <C-g> :Ag<CR>
 map ; :suspend<CR>
-colorscheme gruvbox
-"colorscheme bubblegum-256-light
-"colorscheme dracula
-set bg=dark
-set t_Co=256
-set laststatus=2
-let g:airline_theme='bubblegum'
-let g:gitgutter_enabled=1
 set updatetime=1
 " A few common cmus commands
 nnoremap <leader>N :call CMUSNext()<cr>
@@ -370,7 +368,6 @@ function! ChooseTerm(termname, slider)
     endif
 endfunction
 
-set nocompatible
 
 
 set wildignore+=*.pyc,*.o,*.a,*.obj,*.svn,*.swp,*.class,*.hg,*.DS_Store,*.min.*
@@ -383,7 +380,6 @@ set whichwrap=<,>,h,l
 set redrawtime=10000
 au Syntax * syntax sync fromstart
 "disable mouse input
-set mouse=
 
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
