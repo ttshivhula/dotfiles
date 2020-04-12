@@ -47,6 +47,7 @@ Plugin 'vwxyutarooo/nerdtree-devicons-syntax'
 Plugin 'ttshivhula/vim-zoom'
 Plugin 'kdheepak/lazygit.vim'
 Plugin 'vimwiki/vimwiki'
+Plugin 'ayu-theme/ayu-vim'
 filetype plugin indent on    " required
 
 "VIM Look and Feel
@@ -398,3 +399,8 @@ inoremap <S-Down> <Esc>:m .+1<CR>==gi
 inoremap <S-Up> <Esc>:m .-2<CR>==gi
 vnoremap <S-Down> :m '>+1<CR>gv=gv
 vnoremap <S-Up> :m '<-2<CR>gv=gv
+
+let ayucolor="light"  " for light version of theme
+let ayucolor="mirage" " for mirage version of theme
+let ayucolor="dark"   " for dark version of theme
+colorscheme ayu
