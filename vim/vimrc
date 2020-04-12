@@ -70,6 +70,9 @@ let g:gitgutter_enabled=1
 set timeoutlen=1000
 set ttimeoutlen=0
 
+"VIM WIKI
+let g:vimwiki_list = [{'path': '~/vimwiki/',
+                      \ 'syntax': 'markdown', 'ext': '.md'}]
 
 " (VsCode like) Tab indent movement (use mark `m' for cursor position)
 vmap <S-Tab>  mm<`m:<C-U>exec "normal ".&shiftwidth."h"<CR>mmgv`m
