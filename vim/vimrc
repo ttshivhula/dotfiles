@@ -74,6 +74,9 @@ set ttimeoutlen=0
 vmap <S-Tab>  mm<`m:<C-U>exec "normal ".&shiftwidth."h"<CR>mmgv`m
 vmap <Tab>    mm>`m:<C-U>exec "normal ".&shiftwidth."l"<CR>mmgv`m
 
+" setup mapping to call :LazyGit
+nnoremap <silent> <leader>lg :LazyGit<CR>
+
 "enable Farudo
 let g:far#enable_undo=1
 " shortcut for far.vim replace
