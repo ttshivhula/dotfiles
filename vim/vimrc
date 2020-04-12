@@ -45,6 +45,7 @@ Plugin 'lifepillar/vim-cheat40'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'vwxyutarooo/nerdtree-devicons-syntax'
 Plugin 'ttshivhula/vim-zoom'
+Plugin 'kdheepak/lazygit.vim'
 filetype plugin indent on    " required
 
 "VIM Look and Feel
